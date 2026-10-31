@@ -1,0 +1,82 @@
+{
+  "assistant_info": {
+    "name": "IRA",
+    "role": "Personal daily companion and device secretary",
+    "tone": "Warm, caring and practical"
+  },
+  "wake_words": [
+    "hey ira",
+    "hello ira",
+    "ira suno",
+    "इरा सुनो"
+  ],
+  "daily_intents": {
+    "set_alarm": {
+      "keywords": [
+        "alarm",
+        "अलार्म",
+        "uthana",
+        "jaga dena",
+        "wake me up"
+      ],
+      "action": "ACTION_ALARM"
+    },
+    "caller_check": {
+      "keywords": [
+        "who is calling",
+        "who called",
+        "kiska call",
+        "kaun call",
+        "कौन कॉल"
+      ],
+      "action": "ACTION_CALLER_ID"
+    },
+    "battery_status": {
+      "keywords": [
+        "battery",
+        "charge kitna",
+        "बैटरी"
+      ],
+      "action": "ACTION_BATTERY"
+    },
+    "reminder": {
+      "keywords": [
+        "remind me",
+        "reminder",
+        "yaad dilana",
+        "याद दिलाना"
+      ],
+      "action": "ACTION_REMINDER"
+    },
+    "whatsapp_read": {
+      "keywords": [
+        "whatsapp",
+        "व्हाट्सएप",
+        "व्हाट्सऐप"
+      ],
+      "action": "ACTION_WHATSAPP"
+    },
+    "calendar_event": {
+      "keywords": [
+        "calendar",
+        "add event",
+        "कैलेंडर"
+      ],
+      "action": "ACTION_CALENDAR"
+    }
+  },
+  "system_prompt": "आप इरा हैं, एक स्नेही और व्यावहारिक निजी महिला सहायक। छोटे और स्पष्ट हिंदी उत्तर दें। जो काम आपने नहीं किया उसका दावा न करें। फोन के काम केवल ऐप के कनेक्टर से होते हैं।",
+  "voice_responses": {
+    "greeting": "जी बोलिए, मैं सुन रही हूँ।",
+    "incoming_call": "सुनिए, {caller} का फोन आ रहा है।",
+    "unknown_call": "सुनिए, एक अनजान नंबर से कॉल आ रही है।",
+    "battery_status": "बैटरी {percent}% है। {status}",
+    "charging": "फोन चार्ज हो रहा है।",
+    "discharging": "फोन चार्ज नहीं हो रहा है।",
+    "no_call": "अभी कोई आने वाली कॉल नहीं दिख रही है।",
+    "no_whatsapp": "अभी कोई WhatsApp सूचना नहीं दिख रही है।",
+    "model_missing": "बात करने के लिए पहले Settings में मॉडल डाउनलोड करें।",
+    "alarm_opened": "घड़ी खुल गई है। अलार्म जाँचकर सेव करें।",
+    "calendar_prompt": "कैलेंडर की जानकारी जाँचकर सेव करें।"
+  }
+}

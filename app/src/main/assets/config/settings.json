@@ -1,0 +1,21 @@
+{
+  "assistant_name": "IRA",
+  "default_language": "hinglish",
+  "model": {
+    "repo_id": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+    "filename": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "n_ctx": 2048,
+    "n_batch": 256,
+    "n_ubatch": 128,
+    "n_threads": 4,
+    "cache_type": "Q8_0",
+    "mmap": true,
+    "mlock": false
+  },
+  "memory": {
+    "target_limit_mb": 4096,
+    "stop_generation_rss_mb": 3584,
+    "note": "Best-effort guard only. Android does not reserve RAM or enforce an app-wide physical RAM ceiling."
+  },
+  "language_packs": ["hinglish.json", "hi_IN.json", "en_IN.json"]
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IRA</string>
+    <string name="notification_listener_label">IRA WhatsApp notifications</string>
+    <string name="call_screening_label">IRA caller announcements</string>
+</resources>

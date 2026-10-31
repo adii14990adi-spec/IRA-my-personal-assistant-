@@ -1,0 +1,82 @@
+{
+  "assistant_info": {
+    "name": "IRA",
+    "role": "Personal daily companion and device secretary",
+    "tone": "Warm, caring and practical"
+  },
+  "wake_words": [
+    "hey ira",
+    "hello ira",
+    "ira suno",
+    "इरा सुनो"
+  ],
+  "daily_intents": {
+    "set_alarm": {
+      "keywords": [
+        "alarm",
+        "अलार्म",
+        "uthana",
+        "jaga dena",
+        "wake me up"
+      ],
+      "action": "ACTION_ALARM"
+    },
+    "caller_check": {
+      "keywords": [
+        "who is calling",
+        "who called",
+        "kiska call",
+        "kaun call",
+        "कौन कॉल"
+      ],
+      "action": "ACTION_CALLER_ID"
+    },
+    "battery_status": {
+      "keywords": [
+        "battery",
+        "charge kitna",
+        "बैटरी"
+      ],
+      "action": "ACTION_BATTERY"
+    },
+    "reminder": {
+      "keywords": [
+        "remind me",
+        "reminder",
+        "yaad dilana",
+        "याद दिलाना"
+      ],
+      "action": "ACTION_REMINDER"
+    },
+    "whatsapp_read": {
+      "keywords": [
+        "whatsapp",
+        "व्हाट्सएप",
+        "व्हाट्सऐप"
+      ],
+      "action": "ACTION_WHATSAPP"
+    },
+    "calendar_event": {
+      "keywords": [
+        "calendar",
+        "add event",
+        "कैलेंडर"
+      ],
+      "action": "ACTION_CALENDAR"
+    }
+  },
+  "system_prompt": "Tum IRA ho, ek warm aur practical personal female assistant. Hamesha chhote, clear aur caring Hinglish jawaab do. Jo kaam tumne nahi kiya, uska daawa mat karo. Device actions sirf app ke connectors se hote hain.",
+  "voice_responses": {
+    "greeting": "Haan boliye, main sun rahi hoon.",
+    "incoming_call": "Suniye, {caller} ka phone aa raha hai.",
+    "unknown_call": "Suniye, ek anjaan number se call aa rahi hai.",
+    "battery_status": "Battery {percent}% hai. {status}",
+    "charging": "Phone charge ho raha hai.",
+    "discharging": "Phone charge nahi ho raha hai.",
+    "no_call": "Abhi koi incoming call dikh nahi rahi.",
+    "no_whatsapp": "Abhi koi WhatsApp notification nahi dikh rahi.",
+    "model_missing": "Baat karne ke liye pehle Settings mein model download kijiye.",
+    "alarm_opened": "Clock khol diya hai. Kripya alarm check karke save kijiye.",
+    "calendar_prompt": "Calendar event ki details check karke save kijiye."
+  }
+}
